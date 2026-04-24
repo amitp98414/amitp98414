@@ -1,16 +1,53 @@
-## Hi there 👋
+# Hi 👋 I'm Amit Patil
 
-<!--
-**amitp98414/amitp98414** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔐 Cybersecurity Portfolio
 
-Here are some ideas to get you started:
+💻 Beginner Bug Bounty Hunter  
+🛡️ Web Security Learner  
+🎯 Goal: First Valid HackerOne Report
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Skills
+
+- Web Application Testing
+- XSS
+- IDOR
+- API Testing
+- Burp Suite
+- Recon
+- OWASP Top 10
+
+---
+
+## 🧰 Tools I Use
+
+- Burp Suite
+- Nmap
+- Subfinder
+- FFUF
+- Waybackurls
+
+---
+
+## 📚 Current Learning
+
+- PortSwigger Labs
+- HackerOne Programs
+- Authentication Bypass
+- Access Control Testing
+
+---
+
+## 📈 2026 Goals
+
+- Build Strong GitHub Portfolio
+- First Valid Bug Report
+- 50+ Labs Completed
+- Daily Learning
+
+---
+
+## 📫 Connect With Me
+
+Coming Soon...
