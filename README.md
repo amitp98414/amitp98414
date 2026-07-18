@@ -3,7 +3,7 @@
 # Hi 👋, I'm Amit Patil
 
 ### Cloud & DevOps Engineer | Python & FastAPI | Docker & CI/CD
-### Observability | API Security | Application Security
+### Observability | API Security | Cloud Deployment
 
 I build secure, observable and production-minded backend systems using Python, FastAPI, Docker and modern DevOps practices.
 
@@ -23,7 +23,7 @@ I build secure, observable and production-minded backend systems using Python, F
 - 🔄 Automating tests through GitHub Actions and CircleCI
 - 📊 Implementing observability with Prometheus and Grafana
 - 🔐 Applying API-key authentication, rate limiting and secure secret management
-- 🛡️ Interested in application security, API security and authorized security research
+- 🛡️ Building secure APIs with API-key authentication, rate limiting and environment-based secrets
 - 🌱 Continuously learning production deployment and reliability engineering
 
 ---
@@ -92,32 +92,27 @@ I build secure, observable and production-minded backend systems using Python, F
 
 ---
 
-## 🔐 Application Security
+## 🔐 API Security & Reliability
 
-My security work focuses on defensive and authorized testing:
+OpsSage AI includes production-focused API protection:
 
-- Web application and API security
-- Authentication and authorization testing
-- OWASP Top 10 concepts
-- Responsible disclosure
-- Security-focused documentation
-- Secure application configuration
-
-Security-related operations must only be performed on systems owned by you or where explicit authorization has been provided.
+- `X-API-Key` authentication for protected AI endpoints
+- Constant-time API-key comparison
+- Per-key request rate limiting
+- `Retry-After` headers for rate-limited clients
+- Environment-based secret management
+- Clear `401`, `429` and `503` responses
+- Public monitoring endpoints separated from protected AI execution
+- Automated authentication and rate-limit tests
 
 ---
 
-## 📂 Selected Projects
+## 📁 Project Portfolio
 
 ### [OpsSage AI](https://github.com/amitp98414/opssage-ai)
 
 Secure and observable FastAPI application demonstrating Docker deployment, CI/CD automation, Prometheus, Grafana, API security and a public client demo.
 
-### [Bug Bounty Notes](https://github.com/amitp98414/Bug-Bounty-Notes)
-
-Structured notes covering bug bounty methodology, reconnaissance, web security concepts and responsible vulnerability research.
-
----
 
 ## 🎯 Current Focus
 
