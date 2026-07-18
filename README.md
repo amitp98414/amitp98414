@@ -1,113 +1,160 @@
-# Hi there, I'm Amit Patil! 👋
+<div align="center">
 
-## 🔐 Cybersecurity Portfolio | Bug Bounty Hunter | Web Security Researcher
+# Hi 👋, I'm Amit Patil
 
-Welcome to my GitHub! I'm a passionate **bug bounty hunter** and **web security researcher** dedicated to discovering vulnerabilities, learning continuously, and contributing to a more secure internet. My journey focuses on hands-on hacking, documentation, and building a strong portfolio in cybersecurity.
+### Cloud & DevOps Engineer | Python & FastAPI | Docker & CI/CD
+### Observability | API Security | Cloud Deployment
 
----
+I build secure, observable and production-minded backend systems using Python, FastAPI, Docker and modern DevOps practices.
 
-## 🎯 What I'm Focused On
+[![GitHub](https://img.shields.io/badge/GitHub-amitp98414-181717?style=for-the-badge&logo=github)](https://github.com/amitp98414)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-OpsSage_AI-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://opssage-ai.onrender.com/demo)
+[![Swagger](https://img.shields.io/badge/API_Documentation-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://opssage-ai.onrender.com/docs)
 
-- 🔍 **Bug Bounty Hunting** - Finding and responsibly disclosing vulnerabilities on HackerOne and similar platforms
-- 🛡️ **Web Application Security** - OWASP Top 10, API testing, and modern web attack vectors
-- 📚 **Security Knowledge Sharing** - Documenting methodologies, checklists, and learnings for the community
-- 🧪 **Hands-On Learning** - PortSwigger Labs, CTF challenges, and real-world security testing
-
----
-
-## 🚀 Core Skills & Expertise
-
-**Vulnerability Types:**
-- Cross-Site Scripting (XSS) - Reflected, Stored, DOM
-- Insecure Direct Object References (IDOR)
-- API Security & Testing
-- Server-Side Request Forgery (SSRF)
-- Authentication & Authorization Bypass
-- Misconfigurations & Information Disclosure
-
-**Tools & Technologies:**
-- **Burp Suite Pro** (primary testing framework)
-- Nmap, Subfinder, FFUF, Waybackurls
-- Postman, cURL, Browser DevTools
-- Git & Version Control
+</div>
 
 ---
 
-## 📂 Featured Repositories
+## 👨‍💻 About Me
 
-### [Cybersecurity Portfolio](https://github.com/amitp98414/amitp98414)
-My main portfolio featuring security research, vulnerability case studies, and deep dives into web security concepts. Includes a comprehensive SOC + Bug Bounty field guide covering both red team and blue team perspectives.
-
-### [Bug Bounty Notes](https://github.com/amitp98414/Bug-Bounty-Notes)
-A living resource of bug bounty methodologies, recon checklists, tool guides, and learning resources. Perfect for anyone starting their bug bounty journey or looking for structured approaches to vulnerability hunting.
-
----
-
-## 📈 2026 Goals
-
-- ✅ Build a Strong GitHub Security Portfolio
-- 🎯 Land First Valid Bug Report on HackerOne
-- 📚 Complete 50+ PortSwigger Labs
-- 💪 Develop Daily Learning Habits & Consistent Practice
-- 🔗 Establish Presence in Security Community
+- ☁️ Building Cloud and DevOps portfolio projects with real deployments
+- 🐍 Developing backend APIs using Python, FastAPI and Pydantic
+- 🐳 Containerizing applications with Docker and Docker Compose
+- 🔄 Automating tests through GitHub Actions and CircleCI
+- 📊 Implementing observability with Prometheus and Grafana
+- 🔐 Applying API-key authentication, rate limiting and secure secret management
+- 🛡️ Building secure APIs with API-key authentication, rate limiting and environment-based secrets
+- 🌱 Continuously learning production deployment and reliability engineering
 
 ---
 
-## 🔍 Detection Logic & SIEM Thinking
+## 🚀 Featured Project — OpsSage AI
 
-Beyond offense, I'm building knowledge in **blue team operations**:
+[![OpsSage AI CI](https://github.com/amitp98414/opssage-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/amitp98414/opssage-ai/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/amitp98414/opssage-ai?style=flat-square)](https://github.com/amitp98414/opssage-ai/releases)
+[![License](https://img.shields.io/github/license/amitp98414/opssage-ai?style=flat-square)](https://github.com/amitp98414/opssage-ai/blob/main/LICENSE)
 
-- **XSS Detection:** Monitoring for spikes in blocked CSP violations and suspicious script patterns
-- **SSRF Detection:** Identifying unusual outbound requests to private/link-local IP ranges
-- **RCE Detection:** Anomalous child processes spawned by web/app servers
-- **Credential Stuffing:** Correlating failed login attempts across accounts from same IP/fingerprint
-- **Misconfig Abuse:** Tracking unauthorized access to admin/debug endpoints
+**OpsSage AI** is a secure, multi-agent DevOps assistant and an end-to-end portfolio case study demonstrating backend development, containerization, CI/CD, observability and cloud deployment.
+
+### Engineering highlights
+
+- FastAPI multi-agent backend with interactive Swagger documentation
+- Docker and Docker Compose deployment
+- GitHub Actions and CircleCI test pipelines
+- Prometheus application metrics and alert rules
+- Provisioned Grafana monitoring dashboard
+- API-key authentication with constant-time comparison
+- Per-key rate limiting with HTTP `429` and `Retry-After`
+- Secure environment-based secret management
+- Public deployment on Render
+- Automated Pytest test suite
+
+### Project links
+
+- 🌐 [Live Client Demo](https://opssage-ai.onrender.com/demo)
+- 📖 [Interactive Swagger API](https://opssage-ai.onrender.com/docs)
+- ❤️ [Service Health](https://opssage-ai.onrender.com/health)
+- 💻 [Source Code](https://github.com/amitp98414/opssage-ai)
+- 🏷️ [Latest Release](https://github.com/amitp98414/opssage-ai/releases/latest)
+
+<a href="https://opssage-ai.onrender.com/demo">
+  <img src="https://raw.githubusercontent.com/amitp98414/opssage-ai/main/docs/images/opssage-ai-monitoring.png"
+       alt="OpsSage AI Grafana monitoring dashboard"
+       width="900">
+</a>
 
 ---
 
-## 📊 Log Analysis & Incident Response
+## 🧰 Technology Stack
 
-I'm developing expertise in:
-- **Scope Definition** - Identifying affected systems and time windows
-- **Pivot Analysis** - Correlating auth logs, WAF logs, app logs, and EDR telemetry
-- **Timeline Construction** - Building attack narrative from initial access to objective actions
-- **Impact Assessment** - Validating data access, privilege escalation, and exfiltration
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
+
+</p>
+
+| Area | Skills demonstrated |
+|---|---|
+| Backend Engineering | Python, FastAPI, REST APIs, Pydantic, Pytest |
+| DevOps & Delivery | Docker, Docker Compose, GitHub Actions, CircleCI, Render |
+| Observability | Prometheus metrics, alert rules, Grafana dashboards |
+| Security | API keys, rate limiting, secret management, API security |
+| Collaboration | Git, feature branches, pull requests, releases and documentation |
 
 ---
 
-## 📚 Current Learning Path
+## 🔐 API Security & Reliability
 
-- PortSwigger Academy (Web Security)
-- HackerOne Bug Bounty Programs
-- Authentication & Authorization Bypass Techniques
-- Access Control Testing & IDOR Methodology
-- OWASP Top 10 & Beyond
+OpsSage AI includes production-focused API protection:
+
+- `X-API-Key` authentication for protected AI endpoints
+- Constant-time API-key comparison
+- Per-key request rate limiting
+- `Retry-After` headers for rate-limited clients
+- Environment-based secret management
+- Clear `401`, `429` and `503` responses
+- Public monitoring endpoints separated from protected AI execution
+- Automated authentication and rate-limit tests
 
 ---
 
-## 🛡️ Philosophy
+## 📁 Project Portfolio
 
-> **Security is not about being paranoid. It's about being prepared.**
+### [OpsSage AI](https://github.com/amitp98414/opssage-ai)
 
-I believe in:
-- **Responsible Disclosure** - Always report findings through proper channels
-- **Continuous Learning** - The security landscape changes daily; staying sharp is essential
-- **Community Contribution** - Sharing knowledge makes everyone safer
-- **Ethical Hacking** - Using skills only with explicit authorization, always
+Secure and observable FastAPI application demonstrating Docker deployment, CI/CD automation, Prometheus, Grafana, API security and a public client demo.
+
+
+## 🎯 Current Focus
+
+- Cloud and DevOps engineering
+- Backend automation with Python
+- Secure API development
+- CI/CD pipeline engineering
+- Monitoring and observability
+- Container security and deployment reliability
+
+---
+
+## 📈 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=amitp98414&show_icons=true&theme=github_dark&hide_border=true"
+       alt="Amit Patil GitHub statistics"
+       height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amitp98414&layout=compact&theme=github_dark&hide_border=true"
+       alt="Amit Patil most used languages"
+       height="165">
+</p>
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm always interested in:
-- Collaborating on security research
-- Discussing bug bounty findings and methodologies
-- Helping others break into cybersecurity
-- Sharing knowledge and learning from the community
+I am open to opportunities and collaborations involving:
 
-**Reach out if you'd like to connect!**
+- Cloud and DevOps engineering
+- Python backend development
+- CI/CD automation
+- Application and API security
+- Monitoring and observability
+
+📌 Explore my work: [github.com/amitp98414](https://github.com/amitp98414)
+🚀 Try OpsSage AI: [opssage-ai.onrender.com/demo](https://opssage-ai.onrender.com/demo)
 
 ---
 
-**Last Updated:** 2026  
-**Status:** 🚀 Active & Learning
+<div align="center">
+
+**Building secure systems. Automating delivery. Improving reliability.**
+
+</div>
