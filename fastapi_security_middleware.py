@@ -58,7 +58,8 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
             # Return 429 with Retry-After (seconds until next minute window)
             now = int(time.time())
             retry_after = 60 - (now % 60)
-            raise HTTPException(status_code=429, detail="Rate limit exceeded. Retry after {} seconds".format(retry_after))
+            from starlette.responses import JSONResponse
+            return JSONResponse({"detail": "Rate limit exceeded."}, status_code=429, headers={"Retry-After": str(retry_after)})
         response = await call_next(request)
         return response
 
