@@ -1,0 +1,15 @@
+rules:
+  - id: aws-access-key
+    pattern-regex: 'AKIA[0-9A-Z]{16}'
+    message: 'Possible AWS access key detected.'
+    severity: ERROR
+
+  - id: private-key
+    pattern-regex: '-----BEGIN( RSA | )?PRIVATE KEY-----'
+    message: 'Private key literal detected.'
+    severity: ERROR
+
+  - id: long-literal-secret
+    pattern-regex: '=[ \t]*\"[A-Za-z0-9_\-]{20,}\"'
+    message: 'Possible hard-coded secret (long quoted literal).'
+    severity: WARNING

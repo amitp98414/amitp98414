@@ -158,3 +158,14 @@ I am open to opportunities and collaborations involving:
 **Building secure systems. Automating delivery. Improving reliability.**
 
 </div>
+
+---
+
+## Contributing
+
+Contributions are welcome — see CONTRIBUTING.md for guidelines on forking, branching, testing, and submitting a pull request.
+
+## Security
+
+If you discover a security vulnerability, please do not open a public issue. See SECURITY.md for private reporting options and guidance on responsible disclosure.
+
