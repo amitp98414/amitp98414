@@ -191,7 +191,7 @@ export default function ScansPage() {
                     </td>
 
                     <td className="px-5 py-4 text-xs text-muted-foreground">
-                      {new Date(scan.startedAt).toLocaleString()}
+                      {scan.startedAt.replace("T", " ").replace("Z", " UTC")}
                     </td>
                   </tr>
                 ))}
