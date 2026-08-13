@@ -1,3 +1,4 @@
+import { AIAnalysisPanel } from "@/components/findings/ai-analysis-panel";
 import Link from "next/link";
 import { ArrowLeft, Bot, CheckCircle2, ShieldAlert } from "lucide-react";
 
@@ -151,13 +152,18 @@ export default async function FindingDetailPage({ params }: Props) {
                 risk score and prepare a remediation draft for human review.
               </p>
 
-              <button
-                type="button"
-                disabled
-                className="mt-5 w-full rounded-lg border border-primary/20 bg-primary/10 px-4 py-2.5 text-sm text-primary disabled:cursor-not-allowed disabled:opacity-70"
-              >
-                AI analysis coming next
-              </button>
+             <AIAnalysisPanel
+               input={{
+                 title: finding.title,
+                 severity: finding.severity,
+                 riskScore: finding.riskScore,
+                 assetName: asset?.name ?? finding.assetId,
+                 scanner: finding.scanner,
+                 description: finding.description,
+                 evidence: finding.evidence,
+                 remediation: finding.remediation,
+                }}
+              />
             </section>
 
             <section className="rounded-2xl border border-border bg-card p-6">
