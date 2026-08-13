@@ -1,0 +1,101 @@
+import Link from "next/link";
+
+const stats = [
+  { label: "Security Score", value: "87", suffix: "/100" },
+  { label: "Assets", value: "24", suffix: "" },
+  { label: "Open Findings", value: "18", suffix: "" },
+  { label: "Critical", value: "2", suffix: "" },
+];
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-slate-100">
+      <div className="mx-auto max-w-7xl px-6 py-8">
+        <header className="mb-10 flex items-center justify-between">
+          <div>
+            <p className="text-sm font-semibold tracking-[0.25em] text-cyan-400">
+              SOLID FIESTA
+            </p>
+
+            <h1 className="mt-2 text-3xl font-bold tracking-tight">
+              AI DevSecOps Command Center
+            </h1>
+
+            <p className="mt-2 max-w-2xl text-slate-400">
+              Security posture, findings, risk intelligence and automation in
+              one control plane.
+            </p>
+          </div>
+
+          <Link
+            href="#dashboard"
+            className="rounded-lg border border-cyan-400/30 bg-cyan-400/10 px-5 py-3 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/20"
+          >
+            Open Dashboard
+          </Link>
+        </header>
+
+        <section
+          id="dashboard"
+          className="grid gap-4 md:grid-cols-2 xl:grid-cols-4"
+        >
+          {stats.map((stat) => (
+            <div
+              key={stat.label}
+              className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 shadow-2xl shadow-black/20"
+            >
+              <p className="text-sm text-slate-400">{stat.label}</p>
+
+              <p className="mt-3 text-3xl font-bold">
+                {stat.value}
+                <span className="text-base font-medium text-slate-500">
+                  {stat.suffix}
+                </span>
+              </p>
+            </div>
+          ))}
+        </section>
+
+        <section className="mt-8 grid gap-6 lg:grid-cols-3">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 lg:col-span-2">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-semibold">Security Overview</h2>
+
+                <p className="mt-1 text-sm text-slate-400">
+                  Demo data — real scanning is not enabled yet.
+                </p>
+              </div>
+
+              <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-3 py-1 text-xs text-amber-300">
+                DEMO MODE
+              </span>
+            </div>
+
+            <div className="mt-6 flex h-48 items-center justify-center rounded-xl border border-dashed border-white/10 bg-slate-900/60 text-slate-500">
+              Risk analytics chart will appear here
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+            <h2 className="text-xl font-semibold">Recent Activity</h2>
+
+            <div className="mt-6 space-y-4">
+              {[
+                "Critical finding triaged",
+                "Asset inventory synchronized",
+                "Demo scan completed",
+                "AI remediation generated",
+              ].map((item) => (
+                <div key={item} className="border-b border-white/5 pb-4">
+                  <p className="text-sm text-slate-200">{item}</p>
+                  <p className="mt-1 text-xs text-slate-500">Just now</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  );
+}
