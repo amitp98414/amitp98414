@@ -19,3 +19,6 @@ generated/prisma/
 .claude/
 .windsurf/
 skills-lock.json
+
+# Local recovery workspace
+solid-fiesta-recovered/
