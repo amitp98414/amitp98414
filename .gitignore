@@ -13,3 +13,9 @@ generated/prisma/
 
 *.log
 .DS_Store
+
+# Local AI/editor workspace metadata
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
